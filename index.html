@@ -3,18 +3,66 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Billie Jean</title>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px 20px;
+  background: #f5f5f5;
+}
+
+.card {
+  max-width: 450px;
+  margin: auto;
+  background: white;
+  padding: 40px 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.play-button {
+  display: inline-block;
+  padding: 18px 28px;
+  background: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 20px;
+}
+
+.play-button:hover {
+  background: #444;
+}
+</style>
+
 </head>
 
-<body style="text-align:center; font-family:Arial; padding:40px;">
+<body>
+
+<div class="card">
 
 <h1>Billie Jean</h1>
+
 <h2>Michael Jackson</h2>
 
-<p>Tap play to hear the preview:</p>
+<a class="play-button"
+   href="https://cdnt-preview.dzcdn.net/api/1/1/e/6/e/0/e6e0f8717b1e6353e2abf797c6849889.mp3?hdnea=exp=1786564500~acl=/api/1/1/e/6/e/0/e6e0f8717b1e6353e2abf797c6849889.mp3*~data=user_id=0,application_id=42~hmac=3f6bf29dc93ec51031f35ea4e0c5d7b869bc37cf7db6792bfe5e762680eca317">
+   ▶ PLAY 30-SECOND PREVIEW
+</a>
 
-<audio controls>
-<source src="https://cdnt-preview.dzcdn.net/api/1/1/e/6/e/0/e6e0f8717b1e6353e2abf797c6849889.mp3?hdnea=exp=1786564500~acl=/api/1/1/e/6/e/0/e6e0f8717b1e6353e2abf797c6849889.mp3*~data=user_id=0,application_id=42~hmac=3f6bf29dc93ec51031f35ea4e0c5d7b869bc37cf7db6792bfe5e762680eca317" type="audio/mpeg">
-</audio>
+</div>
 
 </body>
 </html>
